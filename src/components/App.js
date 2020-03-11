@@ -117,7 +117,7 @@ class App extends React.Component {
         <NewBeerControl onNewBeerCreate={this.handleAddingNewBeerToList} />
         </div>
       } />
-      <Route path='/newbeer' render={()=><NewBeerControl onNewBeerCreate={this.handleAddingNewBeerToList} />} />
+      <Route path='/newbeer' render={()=><NewBeerControl onNewBeerCreation={this.handleAddingNewBeerToList} />} />
       <Route component={Error404}/>
       </Switch>
       </div>

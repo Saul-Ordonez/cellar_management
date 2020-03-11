@@ -12,7 +12,7 @@ function NewBeerForm(props) {
   function handleNewBeerFormSubmission(event) {
     event.preventDefault();
 
-    props.onNewBeerCreate(
+    props.onNewBeerCreation(
       {name: _name.value,
         brewery: _brewery.value,
         bottled: _bottled.value,
