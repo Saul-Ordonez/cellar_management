@@ -5,7 +5,7 @@ import Error404 from './Error404';
 import BeerList from './BeerList';
 import NewBeerControl from './NewBeerControl';
 import Landing from './Landing';
-import NavBar from './Navbar';
+import NavBar from './NavBar';
 
 class App extends React.Component {
 
@@ -16,80 +16,80 @@ class App extends React.Component {
         {
           name: 'Pliney the Elder',
           brewery: 'Russian River Brewing Co.',
-          size: '16.9oz',
-          cost: '$8',
+          bottled: '1/2/15',
+          bought: '1/2/15',
           abv: '12%',
           ibu: '100'
         },
         {
           name: 'CBS',
           brewery: 'Founders Brewing',
-          size: '22oz',
-          cost: '$24',
+          bottled: '1/2/15',
+          bought: '1/2/15',
           abv: '11.7%',
           ibu: '45'
         },
         {
           name: '4 Seasons Hazy IPA',
           brewery: 'Mother Earth Brewing',
-          size: '16oz',
-          cost: '$5',
+          bottled: '1/2/15',
+          bought: '1/2/15',
           abv: '7.5%',
           ibu: '55'
         },
         {
           name: 'Hazy Rabbit IPA',
           brewery: 'Lakefront Brewery',
-          size: '12oz',
-          cost: '$4',
+          bottled: '1/2/15',
+          bought: '1/2/15',
           abv: '5.2%',
           ibu: '61'
         },
         {
           name: 'Fog Breaker IPA',
           brewery: 'Anchor Brewing',
-          size: '14oz',
-          cost: '$4.50',
+          bottled: '1/2/15',
+          bought: '1/2/15',
           abv: '6.8%',
           ibu: '64'
         },
         {
           name: 'Ruby Redbird',
           brewery: 'Shiner',
-          size: '12oz',
-          cost: '$4',
+          bottled: '1/2/15',
+          bought: '1/2/15',
           abv: '4%',
           ibu: '22'
         },
         {
           name: 'Cuvée Du Jongluer',
           brewery: 'Cascade Brewing Barrel House',
-          size: '22oz',
-          cost: '$15',
+          bottled: '1/2/15',
+          bought: '1/2/15',
           abv: '9.4%',
           ibu: '44'
         },
         {
           name: 'Bourbon County Double Barrel',
           brewery: 'Goose Island',
-          size: '16.9oz',
-          cost: '$20',
+          bottled: '1/2/15',
+          bought: '1/2/15',
           abv: '18%',
           ibu: '30'
         },
         {
           name: 'Distorted Perception',
           brewery: 'Hardywood Park',
-          size: '16oz',
-          cost: '$7',
+          bottled: '1/2/15',
+          bought: '1/2/15',
           abv: '7%',
           ibu: '58'
         },
         {
           name: 'Witch Finder',
           brewery: 'Holy Mountain',
-          size: '22oz',
-          cost: '$24',
+          bottled: '1/2/15',
+          bought: '1/2/15',
           abv: '6.1%',
           ibu: '35'
         }
