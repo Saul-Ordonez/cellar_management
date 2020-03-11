@@ -14,13 +14,14 @@ function NewBeerForm(props) {
     props.onNewBeerCreate(
       {name: _name.value,
         brewery: _brewery.value,
-        size: _size.value,
+        bottled: _bottled.value,
+        bought: _bought.value,
         abv: _abv.value,
         ibu: _ibu.value,});
         _name.value = '';
         _brewery.value = '';
-        _cost.value = '';
-        _size.value = '';
+        _bottled.value = '';
+        _bought.value = '';
         _abv.value = '';
         _ibu.value = '';
       }
