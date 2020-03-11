@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function ShowingBeerForm(props){
   return (
@@ -7,5 +8,9 @@ function ShowingBeerForm(props){
     </div>
   );
 }
+
+ShowingBeerForm.propTypes = {
+  onHandleShowingBeerForm: PropTypes.func
+};
 
 export default ShowingBeerForm;

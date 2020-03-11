@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import Error404 from './Error404';
 import BeerList from './BeerList';
 import NewBeerControl from './NewBeerControl';
+import NewBeerForm from './NewBeerForm';
 import Landing from './Landing';
 import NavBar from './NavBar';
 
@@ -101,7 +102,7 @@ class App extends React.Component {
   handleAddingNewBeerToList(newBeer){
     var newMasterBeerList = this.state.masterBeerList.slice();
     newMasterBeerList.push(newBeer);
-    this.setState({masterBeerList: newMasterBeerList});
+    this.setState({ masterBeerList: newMasterBeerList });
   }
 
   render() {
@@ -111,13 +112,22 @@ class App extends React.Component {
       <NavBar />
       <Switch>
       <Route exact path='/' component={Landing} />
-      <Route exact path='/beerlist' render={()=>
-        <div>
-        <BeerList beerList={this.state.masterBeerList}/>
-        <NewBeerControl onNewBeerCreate={this.handleAddingNewBeerToList} />
-        </div>
-      } />
-      <Route path='/newbeer' render={()=><NewBeerControl onNewBeerCreation={this.handleAddingNewBeerToList} />} />
+      <Route
+        exact
+        path='/beerlist'
+        render={()=> (
+          <div>
+            <BeerList beerList={this.state.masterBeerList} />
+            <NewBeerControl onNewBeerCreation={this.handleAddingNewBeerToList} />
+          </div>
+        )}
+        />
+      <Route
+        path='/newbeer'
+        render={()=> (
+          <NewBeerForm onNewBeerCreation={this.handleAddingNewBeerToList} />
+        )}
+        />
       <Route component={Error404}/>
       </Switch>
       </div>
