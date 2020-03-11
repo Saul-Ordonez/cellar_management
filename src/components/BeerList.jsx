@@ -9,8 +9,8 @@ function BeerList(props) {
       <Beer
       name={beer.name}
       brewery={beer.brewery}
-      bottled={{props.date_bottled}}
-      bought={{props.date_bought}}
+      bottled={beer.bottled}
+      bought={beer.bought}
       abv={beer.abv}
       ibu={beer.ibu}
       img={beer.img}
