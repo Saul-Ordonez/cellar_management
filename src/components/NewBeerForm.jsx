@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function NewBeerForm(props) {
 
@@ -18,7 +19,7 @@ function NewBeerForm(props) {
         bottled: _bottled.value,
         bought: _bought.value,
         abv: _abv.value,
-        ibu: _ibu.value,});
+        ibu: _ibu.value});
         _name.value = '';
         _brewery.value = '';
         _bottled.value = '';
@@ -59,5 +60,9 @@ function NewBeerForm(props) {
         </div>
       );
     }
+
+    NewBeerForm.propTypes = {
+      onNewBeerCreation: PropTypes.func
+    };
 
     export default NewBeerForm;

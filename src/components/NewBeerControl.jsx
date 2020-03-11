@@ -1,6 +1,7 @@
 import React from 'react';
-import NewBeerForm from './NewBeerForm.jsx';
-import ShowBeerForm from './ShowBeerForm'
+import NewBeerForm from './NewBeerForm';
+import ShowingBeerForm from './ShowingBeerForm';
+import PropTypes from 'prop-types';
 
 class NewBeerControl extends React.Component {
 
@@ -21,7 +22,7 @@ class NewBeerControl extends React.Component {
     if (this.state.formVisibleOnPage){
       currentlyVisibleContent = <NewBeerForm onNewBeerCreation={this.props.onNewBeerCreation}/>
     } else {
-      currentlyVisibleContent = <ShowBeerForm onHandleShowingBeerForm={this.handleShowingBeerForm}/>;
+      currentlyVisibleContent = <ShowingBeerForm onHandleShowingBeerForm={this.handleShowingBeerForm}/>;
     }
     return (
       <div>
@@ -30,5 +31,9 @@ class NewBeerControl extends React.Component {
     );
   }
 }
+
+NewBeerControl.propTypes = {
+  onNewBeerCreation: PropTypes.func
+};
 
 export default NewBeerControl;

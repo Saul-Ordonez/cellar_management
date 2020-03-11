@@ -1,12 +1,11 @@
-
 import React from 'react';
 
-function ShowBeerForm(props){
+function ShowingBeerForm(props){
   return (
-    <div className = 'button' >
+    <div>
       <button  onClick={props.onHandleShowingBeerForm}>Add a new beer to the cellar</button>
     </div>
   );
 }
 
-export default ShowBeerForm;
+export default ShowingBeerForm;
