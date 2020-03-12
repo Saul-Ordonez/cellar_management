@@ -8,8 +8,8 @@ function NavBar() {
     <div>
     <div class='navBarStyle'>
     <Link class='homeLink' to='/'>Home</Link>
-    <Link class='centerLink' to='/beerlist'>Cellar List</Link>
-    <Link class='centerLink' to='/newbeer'>Add a Beer</Link>
+    <Link class='listLink' to='/beerlist'>Cellar List</Link>
+    <Link class='newBeerLink' to='/newbeer'>Add a Beer</Link>
     </div>
     </div>
   );

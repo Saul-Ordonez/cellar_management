@@ -1,13 +1,19 @@
 .navBarStyle {
-  margin-top: 2%;
-  margin-left: 1%;
   background-color: navy;
+  text-align: center;
 }
 
 .homeLink {
   color: white;
+  float: left;
 }
 
-.centerLink {
+.listLink {
   color: white;
+}
+
+.newBeerLink {
+  color: white;
+  float: right;
+  margin-right: 2%;
 }
