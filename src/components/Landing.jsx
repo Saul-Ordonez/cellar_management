@@ -1,9 +1,10 @@
 import React from 'react';
+import './Landing.css';
 
 function Landing() {
   return(
-    <div>
-    <h1>Landing page</h1>
+    <div class='titleStyle'>
+    <h1>Cellar Mate</h1>
     </div>
   );
 }

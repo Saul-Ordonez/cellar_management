@@ -1,15 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './Beer.css';
 
 function Beer(props) {
   return (
     <div>
+    <div class='card'>
     <h2>{props.name}</h2>
     <h4>{props.brewery}</h4>
-    <h4>{props.bottled}</h4>
-    <h4>{props.bought}</h4>
-    <h4>{props.abv}</h4>
-    <h4>{props.ibu}</h4>
+    <h4>Date bottled: {props.bottled}</h4>
+    <h4>Date Bought: {props.bought}</h4>
+    <h4>ABV: {props.abv}</h4>
+    <h4>IBUs: {props.ibu}</h4>
+    </div>
     </div>
   );
 }
