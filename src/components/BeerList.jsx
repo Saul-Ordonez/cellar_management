@@ -1,5 +1,8 @@
 import React from 'react';
 import Beer from './Beer';
+import PropTypes from 'prop-types';
+import NewBeerForm from './NewBeerForm';
+import ShowingBeerForm from './ShowingBeerForm';
 
 function BeerList(props) {
 
@@ -13,11 +16,14 @@ function BeerList(props) {
       bought={beer.bought}
       abv={beer.abv}
       ibu={beer.ibu}
-      img={beer.img}
       key={index}/>
     )}
     </div>
   );
 }
+
+BeerList.propTypes = {
+  beerList: PropTypes.array
+};
 
 export default BeerList;
