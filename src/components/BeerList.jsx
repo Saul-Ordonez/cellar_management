@@ -1,8 +1,6 @@
 import React from 'react';
 import Beer from './Beer';
 import PropTypes from 'prop-types';
-import NewBeerForm from './NewBeerForm';
-import ShowingBeerForm from './ShowingBeerForm';
 
 function BeerList(props) {
 

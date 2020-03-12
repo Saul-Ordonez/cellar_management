@@ -111,7 +111,7 @@ class App extends React.Component {
       <div>
       <NavBar />
       <Switch>
-      <Route exact path='/' component={Landing} />
+      <Route path='/' exact component={Landing} />
       <Route
         exact
         path='/beerlist'
