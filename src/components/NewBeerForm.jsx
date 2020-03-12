@@ -21,12 +21,6 @@ function NewBeerForm(props) {
         bought: _bought.value,
         abv: _abv.value,
         ibu: _ibu.value,});
-        _name.value = '';
-        _brewery.value = '';
-        _bottled.value = '';
-        _bought.value = '';
-        _abv.value = '';
-        _ibu.value = '';
       }
 
       return (
