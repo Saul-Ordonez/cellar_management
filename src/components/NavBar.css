@@ -1,19 +1,40 @@
 .navBarStyle {
   background-color: navy;
   text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .homeLink {
   color: white;
   float: left;
+  font-size: 30px;
+  margin-left: 2%;
 }
 
 .listLink {
   color: white;
+  font-size: 30px;
 }
 
 .newBeerLink {
   color: white;
   float: right;
   margin-right: 2%;
+  font-size: 30px;
+}
+
+.newBeerLink:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.listLink:hover{
+  text-decoration: none;
+  color: white
+}
+
+.homeLink:hover{
+  text-decoration: none;
+  color: white
 }
