@@ -16,6 +16,7 @@
 .listLink {
   color: white;
   font-size: 30px;
+  margin-right: -5%;
 }
 
 .newBeerLink {
@@ -25,14 +26,14 @@
   font-size: 30px;
 }
 
-.newBeerLink:hover{
-  text-decoration: none;
-  color: white;
-}
-
 .listLink:hover{
   text-decoration: none;
   color: white
+}
+
+.newBeerLink:hover{
+  text-decoration: none;
+  color: white;
 }
 
 .homeLink:hover{

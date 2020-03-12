@@ -1,0 +1,17 @@
+.formstyle {
+  padding: 2%;
+  margin-left: 25%;
+}
+
+.singleFormStyle {
+  padding: 1%;
+  border-bottom-left-radius: 40%;
+  border-top-right-radius: 40%;
+  border-color: black;
+  margin: 1%;
+}
+
+.newBeerButton {
+margin-top: 2%;
+margin-left: 25%;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './NewBeerForm.css';
 
 function NewBeerForm(props) {
 
@@ -32,33 +33,41 @@ function NewBeerForm(props) {
       }
 
       return (
-        <div>
+        <div class='formstyle'>
         <form onSubmit={handleNewBeerFormSubmission}>
         <input
+        class='singleFormStyle'
         type='text'
         id='name'
         placeholder='Beer Name'/>
         <input
+        class='singleFormStyle'
         type='text'
         id='brewery'
         placeholder='Brewery'/>
         <input
+        class='singleFormStyle'
         type='text'
         id='bottled'
         placeholder='Date Bottled'/>
+        <br/>
         <input
+        class='singleFormStyle'
         type='text'
         id='bought'
         placeholder='Date Bought'/>
         <input
+        class='singleFormStyle'
         type='text'
         id='abv'
         placeholder='ABV'/>
         <input
+        class='singleFormStyle'
         type='text'
         id='ibu'
         placeholder='IBU'/>
-        <button type='submit'>Add Beer to cellar</button>
+        <br/>
+        <button class='newBeerButton' type='submit'>Add beer to cellar</button>
         </form>
         </div>
       );
