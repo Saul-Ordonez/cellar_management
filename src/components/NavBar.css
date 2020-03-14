@@ -11,6 +11,7 @@
   font-size: 30px;
   margin-left: 2%;
   margin-right: 2%;
+  float: left;
 }
 
 .listLink {
@@ -23,6 +24,7 @@
   color: #5f5137;
   margin-right: 2%;
   font-size: 30px;
+  float: right;
 }
 
 .listLink:hover{
