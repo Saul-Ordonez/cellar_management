@@ -67,7 +67,7 @@ function NewBeerForm(props) {
         id='ibu'
         placeholder='IBU'/>
         <br/>
-        <button class='newBeerButton' type='submit'>Add beer to cellar</button>
+        <button class="newBeerButton btn btn-outline-dark btn-lg" type='submit'>Add beer to cellar</button>
         </form>
         </div>
       );

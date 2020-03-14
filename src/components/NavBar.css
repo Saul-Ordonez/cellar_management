@@ -1,5 +1,5 @@
 .navBarStyle {
-  background-color: navy;
+  background-color: #f7ecd8;
   text-align: center;
   padding-top: 2%;
   padding-bottom: 2%;
@@ -7,20 +7,20 @@
 }
 
 .homeLink {
-  color: white;
+  color: #5f5137;
   float: left;
   font-size: 30px;
   margin-left: 2%;
 }
 
 .listLink {
-  color: white;
+  color: #5f5137;
   font-size: 30px;
   margin-right: -5%;
 }
 
 .newBeerLink {
-  color: white;
+  color: #5f5137;
   float: right;
   margin-right: 2%;
   font-size: 30px;
@@ -28,15 +28,15 @@
 
 .listLink:hover{
   text-decoration: none;
-  color: white
+  color: #5f5137;
 }
 
 .newBeerLink:hover{
   text-decoration: none;
-  color: white;
+  color: #5f5137;
 }
 
 .homeLink:hover{
   text-decoration: none;
-  color: white
+  color: #5f5137
 }
