@@ -8,20 +8,19 @@
 
 .homeLink {
   color: #5f5137;
-  float: left;
   font-size: 30px;
   margin-left: 2%;
+  margin-right: 2%;
 }
 
 .listLink {
   color: #5f5137;
   font-size: 30px;
-  margin-right: -5%;
+  margin-right: 2%;
 }
 
 .newBeerLink {
   color: #5f5137;
-  float: right;
   margin-right: 2%;
   font-size: 30px;
 }
@@ -39,4 +38,10 @@
 .homeLink:hover{
   text-decoration: none;
   color: #5f5137
+}
+
+.title {
+  background-color: #ff8604;
+  margin-left: 40%;
+  margin-right: 40%;
 }
