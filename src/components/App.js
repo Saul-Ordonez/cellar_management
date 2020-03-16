@@ -7,6 +7,7 @@ import NewBeerControl from './NewBeerControl';
 import NewBeerForm from './NewBeerForm';
 import Landing from './Landing';
 import NavBar from './NavBar';
+import LogoBanner from './LogoBanner';
 
 class App extends React.Component {
 
@@ -110,6 +111,7 @@ class App extends React.Component {
     return (
       <div>
       <NavBar />
+      <LogoBanner />
       <Switch>
       <Route path='/' exact component={Landing} />
       <Route
